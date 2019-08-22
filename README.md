@@ -55,8 +55,8 @@ I originally conceived this as a simple, static CodePen clone, but I felt the "p
 The following examples were made and "published" using the provided [code editor](http://jstrieb.github.io/urlpages/editor).
 
 - My personal website
-    - Code in the code editor [here](http://tinyurl.com/yxsrcuz6)
-    - "Published" version [here](http://tinyurl.com/yykrk975)
+    - Code in the code editor [here](https://tinyurl.com/y64dmsqm)
+    - "Published" version [here](https://tinyurl.com/y5mpq8zh)
 - Bookmarklet setup page
     - Code in the code editor [here](http://tinyurl.com/y6rrrlnm)
     - "Published" version [here](http://tinyurl.com/y5khpxpt)
@@ -79,6 +79,17 @@ Currently, the bookmarklet is very much in-development (read: mostly doesn't wor
 - `javascript:window.open("http://jstrieb.github.io/urlpages/#" + btoa(encodeURIComponent(document.documentElement.outerHTML)), "_blank")`
 
 The bookmarklet enables some of the most interesting and promising opportunities for URL Pages. Namely: cloning pages for archival purposes, sharing restricted information to bypass censorship, bypassing paywalls, storing entire pages in bookmarks, etc.
+
+## Related Projects
+
+Since its original creation, it has been forked many times. Please open an issue if you would like me to link back to a fork or mirror.
+- One particularly improved version is JSPen
+    - [JSPen](http://jspen.co)
+    - [Post](https://medium.com/swlh/creating-jspen-a-codepen-like-editor-that-stores-pages-in-urls-b163934f06c8) about the creation of JSPen
+
+Similar in some ways (though unrelated) to the following projects
+- [itty.bitty.site](https://github.com/alcor/itty-bitty)
+- [TinyEditor](https://github.com/umpox/TinyEditor)
 
 
 ## TODO
