@@ -1,6 +1,6 @@
 # URL Pages
 
-[jstrieb.github.io/urlpages](http://jstrieb.github.io/urlpages)
+[laithserhan.github.io/urlpages](http://laithserhan.github.io/urlpages)
 
 ## About
 
@@ -52,7 +52,7 @@ I originally conceived this as a simple, static CodePen clone, but I felt the "p
 
 ## Examples
 
-The following examples were made and "published" using the provided [code editor](http://jstrieb.github.io/urlpages/editor).
+The following examples were made and "published" using the provided [code editor](http://laithserhan.github.io/urlpages/editor).
 
 - My personal website
     - Code in the code editor [here](https://tinyurl.com/y64dmsqm)
@@ -61,22 +61,22 @@ The following examples were made and "published" using the provided [code editor
     - Code in the code editor [here](http://tinyurl.com/y6rrrlnm)
     - "Published" version [here](http://tinyurl.com/y5khpxpt)
 - A page with embedded images (no external image host)
-    - Code in the code editor [here](http://jstrieb.github.io/urlpages/examples/embed-code.html)
-    - "Published" page [here](http://jstrieb.github.io/urlpages/examples/embed-page.html)
+    - Code in the code editor [here](http://laithserhan.github.io/urlpages/examples/embed-code.html)
+    - "Published" page [here](http://laithserhan.github.io/urlpages/examples/embed-page.html)
 
 The following examples were cloned from existing pages using the bookmarklet.
 
-- My dad's food blog [here](http://jstrieb.github.io/urlpages/examples/food-blog.html)
-- The entire [editor](http://jstrieb.github.io/urlpages/editor) encoded in the URL [here](https://tinyurl.com/y62y9abz)
-- This GitHub project page [here](http://jstrieb.github.io/urlpages/examples/project-page.html)
-- A cloned New York Times Article [here](http://jstrieb.github.io/urlpages/examples/nyt.html)
+- My dad's food blog [here](http://laithserhan.github.io/urlpages/examples/food-blog.html)
+- The entire [editor](http://laithserhan.github.io/urlpages/editor) encoded in the URL [here](https://tinyurl.com/y62y9abz)
+- This GitHub project page [here](http://laithserhan.github.io/urlpages/examples/project-page.html)
+- A cloned New York Times Article [here](http://laithserhan.github.io/urlpages/examples/nyt.html)
 
 
 ## Bookmarklet
 
 Currently, the bookmarklet is very much in-development (read: mostly doesn't work). Feel free to try it anyway by visiting the link below and following the instructions, or pasting the code below into a bookmark:
 - [Bookmarklet instruction page](http://tinyurl.com/y5khpxpt)
-- `javascript:window.open("http://jstrieb.github.io/urlpages/#" + btoa(encodeURIComponent(document.documentElement.outerHTML)), "_blank")`
+- `javascript:window.open("http://laithserhan.github.io/urlpages/#" + btoa(encodeURIComponent(document.documentElement.outerHTML)), "_blank")`
 
 The bookmarklet enables some of the most interesting and promising opportunities for URL Pages. Namely: cloning pages for archival purposes, sharing restricted information to bypass censorship, bypassing paywalls, storing entire pages in bookmarks, etc.
 
@@ -103,6 +103,6 @@ Similar in some ways (though unrelated) to the following projects
 - Make the buttons better/more efficient (don't update `href` on every key press)
 - Figure out and publish max URL sizes for various URL shorteners
 - Implement URL compression using [Brotli](https://en.wikipedia.org/wiki/Brotli) for shorter URLs
-- Add option to "publish" pages using base65536 as suggested [here](https://github.com/jstrieb/urlpages/issues/5)
+- Add option to "publish" pages using base65536 as suggested [here](https://github.com/laithserhan/urlpages/issues/5)
 - Allow users to sign/password protect published URLs
 - Upload examples of multi-page sites (tree hierarchy)
